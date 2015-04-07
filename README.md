@@ -21,7 +21,7 @@ curl -O https://github.com/RayPS/my-sketch-colors/raw/master/assets-v55.sketchpr
 echo "All Done! Now restart Sketch app."
 ```
 
-Notice: this will replace your colors. You can also [restore your colors](https://github.com/RayPS/my-sketch-colors/wiki/Restore-my-colors) if you regret it.
+Notice: this will replace your colors. You can also [restore your colors](https://github.com/RayPS/my-sketch-colors/wiki/Restore-your-colors) if you regret it.
 
 
 
