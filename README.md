@@ -11,6 +11,8 @@ You can grab it if you like.
 
 # Installation (Automatically)
 
+Make sure your Sketch App is updated to the newest version. 
+
 Copy and paste the following commands into Terminal and press return to run.
 
 #### If you are using AppStore Version:
@@ -40,7 +42,7 @@ You can install the color preset manually if you feel strange to the commands.
 1. Quit Sketch App
 2. Click on the menu `Plugins > Reveal Plugins Folder...` in Sketch
 3. Go to the parent folder named `com.bohemiancoding.sketch3` in Finder
-4. Downlaod [assets-v55.sketchpreset](https://github.com/RayPS/my-sketch-colors/raw/master/assets-v55.sketchpreset) and put it into this folder 
+4. Download [assets-v55.sketchpreset](https://github.com/RayPS/my-sketch-colors/raw/master/assets-v55.sketchpreset) and put it into this folder 
 
 
 
