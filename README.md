@@ -18,7 +18,7 @@ Copy and paste the following commands into Terminal and press return to run.
 ##### If you are using AppStore Version:
 ```
 cd ~/Library/Containers/com.bohemiancoding.sketch3/Data/Library/Application\ Support/com.bohemiancoding.sketch3/
-mv assets-v55.sketchpreset assets-v55.sketchpreset.backup
+[ -f "assets-v55.sketchpreset" ] && mv assets-v55.sketchpreset assets-v55.sketchpreset.backup
 curl -O https://github.com/RayPS/my-sketch-colors/raw/master/assets-v55.sketchpreset
 echo "All Done! Now restart Sketch app."
 ```
@@ -26,7 +26,7 @@ echo "All Done! Now restart Sketch app."
 ##### If you are using Out of AppStore Version:
 ```
 cd ~/Library/Application\ Support/com.bohemiancoding.sketch3/
-mv assets-v55.sketchpreset assets-v55.sketchpreset.backup
+[ -f "assets-v55.sketchpreset" ] && mv assets-v55.sketchpreset assets-v55.sketchpreset.backup
 curl -O https://github.com/RayPS/my-sketch-colors/raw/master/assets-v55.sketchpreset
 echo "All Done! Now restart Sketch app."
 ```
