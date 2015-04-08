@@ -11,11 +11,11 @@ You can grab it if you like.
 
 # Installation
 
-1. Quit Sketch App
-2. Copy and paste the following commands into Terminal and press return to run.
+Copy and paste the following commands into Terminal and press return to run.
 
 #### If you are using AppStore Version:
 ```
+killall Sketch
 cd ~/Library/Containers/com.bohemiancoding.sketch3/Data/Library/Application\ Support/com.bohemiancoding.sketch3/
 [ -f "assets-v55.sketchpreset" ] && mv assets-v55.sketchpreset assets-v55.sketchpreset.backup
 curl -O https://cdn.rawgit.com/RayPS/my-sketch-colors/master/assets-v55.sketchpreset
@@ -25,6 +25,7 @@ echo "All Done!"
 
 #### If you are using Out of AppStore Version:
 ```
+killall Sketch
 cd ~/Library/Application\ Support/com.bohemiancoding.sketch3/
 [ -f "assets-v55.sketchpreset" ] && mv assets-v55.sketchpreset assets-v55.sketchpreset.backup
 curl -O https://cdn.rawgit.com/RayPS/my-sketch-colors/master/assets-v55.sketchpreset
