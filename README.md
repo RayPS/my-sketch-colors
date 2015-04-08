@@ -22,6 +22,12 @@ killall Sketch ; cd ~/Library/Containers/com.bohemiancoding.sketch3/Data/Library
 ```
 killall Sketch ; cd ~/Library/Application\ Support/com.bohemiancoding.sketch3/ && [ -f "assets-v55.sketchpreset" ] && mv assets-v55.sketchpreset assets-v55.sketchpreset.backup && curl -O https://cdn.rawgit.com/RayPS/my-sketch-colors/master/assets-v55.sketchpreset && open /Applications/Sketch.app ; echo 'All Done!!!'
 ```
+
+
+#### If you are using Sketch Beta:
+```
+killall Sketch\ Beta ; cd ~/Library/Containers/com.bohemiancoding.sketch3.beta/Data/Library/Application\ Support/com.bohemiancoding.sketch3/ && [ -f "assets-v55.sketchpreset" ] && mv assets-v55.sketchpreset assets-v55.sketchpreset.backup && curl -O https://cdn.rawgit.com/RayPS/my-sketch-colors/master/assets-v55.sketchpreset && open /Applications/Sketch\ Beta.app ; echo 'All Done!!!'
+```
 You can also [restore your colors](https://github.com/RayPS/my-sketch-colors/wiki/Restore-your-colors) if you regret it.
 
 ---
