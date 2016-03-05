@@ -18,7 +18,7 @@ Copy and paste the following commands into `Terminal` then press `Return` to run
 
 #### If you are using non-AppStore Version (Downloaded from official website):
 ```
-killall Sketch ; cd ~/Library/Application\ Support/com.bohemiancoding.sketch3/ && [ -f "assets-v63.sketchpreset" ] && mv assets-v63.sketchpreset assets-v63.sketchpreset.backup && curl -O https://cdn.rawgit.com/RayPS/my-sketch-colors/master/assets-v63.sketchpreset && open /Applications/Sketch.app ; echo 'All Done!!!'
+killall Sketch ; cd ~/Library/Application\ Support/com.bohemiancoding.sketch3/ && [ -f "assets-v78.sketchpreset" ] && mv assets-v78.sketchpreset assets-v78.sketchpreset.backup && curl -O https://cdn.rawgit.com/RayPS/my-sketch-colors/master/assets-v78.sketchpreset && open /Applications/Sketch.app ; echo 'All Done!!!'
 ```
 
 #### <strike>If you are using AppStore Version:</strike>
@@ -37,7 +37,7 @@ You can install the color preset manually if you feel strange to command lines.
 1. Click on the menu `Plugins > Manage Plugins... > Click the gear icon > Show Plugins Folder...` in Sketch
 2. Go to the parent folder named `com.bohemiancoding.sketch3` in Finder
 3. Quit Sketch App (must do before next step)
-4. Download [assets-v63.sketchpreset](https://github.com/RayPS/my-sketch-colors/raw/master/assets-v63.sketchpreset) and put it into this folder
+4. Download [assets-v78.sketchpreset](https://github.com/RayPS/my-sketch-colors/raw/master/assets-v78.sketchpreset) and put it into this folder
 5. Open Sketch App.
 
 
